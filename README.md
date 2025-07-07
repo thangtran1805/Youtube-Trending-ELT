@@ -12,30 +12,7 @@ This project builds an ELT (Extract, Load, Transform) pipeline to process YouTub
 
 ##  Project Structure
 
-.
-└── youtube-trending-elt/
-    ├── airflow/
-    │   ├── logs
-    │   └── dags
-    ├── data/
-    │   ├── raw
-    │   └── processed/
-    │       └── parquet
-    ├── scripts/
-    │   ├── extract/
-    │   │   └── extract_youtube_data.py
-    │   ├── load/
-    │   │   └── load_parquet_to_s3.py
-    │   └── transform/
-    │       ├── transform_to_dw_1.py
-    │       └── transform_to_dw_2.py
-    ├── sql/
-    │   ├── config_dw.py
-    │   └── datawarehouse.sql
-    ├── datawarehouse.duckdb
-    ├── CHANGELOG.md
-    └── README.md
-
+![Repo Stucture](./assests/youtube-trending.png)
 ---
 
 ##  Features
