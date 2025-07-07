@@ -1,0 +1,16 @@
+# File dữ liệu
+*.csv
+
+# Môi trường ảo
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook
+*.ipynb
+
+# Config
+.env
+
+# Database
+*.duckdb

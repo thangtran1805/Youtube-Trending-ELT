@@ -1,0 +1,11 @@
+duckdb
+numpy
+pandas
+pyarrow
+pyspark
+s3fs
+boto3
+python-dotenv
+psycopg2-binary
+apache-airflow==2.10.1
+--constraint https://raw.githubusercontent.com/apache/airflow/constraints-2.10.1/constraints-3.10.txt
